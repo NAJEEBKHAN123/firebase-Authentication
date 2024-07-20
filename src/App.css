@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+ 
+}
+
+form {
+  padding: 32px;
+  box-shadow: 0px 0px 6px 4px gray;
+  background-color: #ddd;
+  border-radius: 10px;
+  text-align: center;
+  width: 350px;
+  height: 400px;
+  
+
+}
+
+
+ul {
+  margin-bottom: 32px;
+}
+
+legend {
+  margin-bottom: 50px;
+  font-family: serif;
+  font-size: 80px;
+  font-weight: 900;
+  
+
+}
+
+/* label {
+  font-size: 24px;
+  text-transform: uppercase;
+ 
+} */
+
+fieldset {
+  padding: 0;
+  border: 0;
+ 
+}
+
+li {
+  list-style-type: none;
+  margin-bottom: 24px;
+}
+
+input {
+  display: flex;
+  height: 52px;
+  color: rgb(30, 30, 30);
+  outline: none;
+  padding: 0 16px;
+  font-size: 24px;
+  border-radius: 10px;
+
+
+}
+
+button {
+  background-color: #640bd9;
+  border-radius: 6px;
+  color: white;
+  font-size: 16px;
+  border: none;
+  padding: 16px 24px;
+  cursor: pointer;
+  transition: uppercase;
+ 
+}
+
+button:hover {
+  background-color: #111103;
+}
+
+form a {
+  display: flex-inline;
+  margin-top: 32px;
+  cursor: pointer;
+  background-color: transparent;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+#error-message {
+  color: crimson;
+  font-size: 16px;
+}
+.SignInUp{
+  margin-top: 20px;
+}
